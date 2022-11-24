@@ -149,21 +149,3 @@ form {
   background-color: rgba(11, 12, 9, 0.151);
   color: black;
 }
-
-@media screen and (max-width: 930px) {
-  .leader-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-  }
-
-  h1 {
-    font-size: 250%;
-  }
-}
-
-@media screen and (max-width: 560px) {
-  .leader-container {
-    border: none;
-  }
-}
