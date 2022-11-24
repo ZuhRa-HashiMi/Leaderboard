@@ -10,3 +10,16 @@ body {
   background-color: darkgray;
   overflow-x: hidden;
 }
+
+.list-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+#one {
+  padding: 3px 10px;
+}
