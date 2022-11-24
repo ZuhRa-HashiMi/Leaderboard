@@ -156,3 +156,7 @@ form {
     align-items: center;
     gap: 50px;
   }
+  h1 {
+    font-size: 250%;
+  }
+}
