@@ -6,4 +6,11 @@ const addToLeaderboard = (data) => {
       formtxt.innerHTML = recieved.result;
       formtxt.style.color = '#fff';
     });
-  };
+};
+    const displayLeaderboard = () => {
+        const scoreListSection = document.querySelector('.scores');
+        scoreListSection.innerHTML = '';
+        api.getData().then((dataList) => {
+          if (!dataList) {
+            return;
+          }
