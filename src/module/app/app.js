@@ -1,4 +1,4 @@
-import * as api from '../game/game.js'
+import * as api from '../game/game.js';
 
 const addToLeaderboard = (data) => {
   const formtxt = document.querySelector('form > p');
