@@ -1,13 +1,12 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    color: #004600;
-  }
-  
-  body {
-    margin: auto;
-    background-color: darkgray;
-    overflow-x: hidden;
-  }
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #004600;
+}
+
+body {
+  margin: auto;
+  background-color: darkgray;
+  overflow-x: hidden;
+}
