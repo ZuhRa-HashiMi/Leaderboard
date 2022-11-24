@@ -9,3 +9,8 @@ submit.addEventListener('click', (e) => {
     name.value = '';
   });
   
+
+  window.addEventListener('load', () => {
+    util.displayLeaderboard();
+  });
+  
