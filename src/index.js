@@ -1,3 +1,5 @@
+import './style.css';
+
 import * as util from './module/app/app.js';
 
 const name = document.getElementById('name');
