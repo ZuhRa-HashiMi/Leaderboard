@@ -11,6 +11,28 @@ body {
   overflow-x: hidden;
 }
 
+
+h1 {
+  text-align: center;
+  margin: 20px 0 40px;
+  font-size: 4em;
+  width: 100vw;
+  border-bottom: solid 3px black;
+  color: black;
+}
+
+h2 {
+  font-size: 1.95em;
+  color: black;
+}
+
+.leader-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 20px;
+}
+
 .list-items {
   display: grid;
   grid-template-columns: 1fr 1fr;
