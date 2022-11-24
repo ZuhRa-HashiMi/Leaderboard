@@ -14,3 +14,14 @@ const addToLeaderboard = (data) => {
           if (!dataList) {
             return;
           }
+          const arrangedList = dataList.result.sort((a, b) => b.score - a.score);
+          arrangedList.forEach((data) => {
+            const li = document.createElement('li');
+            li.innerHTML = `<div class ="list-items"><p id="one">${data.user}:</p><p id="two">${data.score}</p>`;
+            scoreListSection.appendChild(li);
+          });
+        });
+      };
+      
+      export { addToLeaderboard, displayLeaderboard };
+      
