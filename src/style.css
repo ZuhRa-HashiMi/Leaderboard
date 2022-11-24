@@ -33,6 +33,29 @@ h2 {
   margin-bottom: 20px;
 }
 
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.scores {
+  border: none;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 350px;
+  width: 450px;
+  padding: 10px;
+  overflow-y: scroll;
+  box-shadow: -5px -5px 15px #bcd1cc5d, 5px 5px 15px #bcd1cc5d;
+}
+
+li {
+  font-size: 20px;
+  list-style-type: none;
+  border-radius: 10px;
+}
+
 .list-items {
   display: grid;
   grid-template-columns: 1fr 1fr;
