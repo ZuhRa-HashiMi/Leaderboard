@@ -156,10 +156,12 @@ form {
     align-items: center;
     gap: 50px;
   }
+
   h1 {
     font-size: 250%;
   }
 }
+
 @media screen and (max-width: 560px) {
   .leader-container {
     border: none;
